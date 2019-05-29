@@ -238,7 +238,7 @@ public class MyLinkedList<E> {
 		System.out.println(ml.remov(null));
 		System.out.println(ml);
 		System.out.println("``````````````");
-		ml.add(0,"傻逼");
+		ml.add(0,"is first");
 		System.out.println(ml);
 		
 		
