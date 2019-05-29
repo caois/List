@@ -2,7 +2,7 @@ package com.collection;
 
 
 public class MyLinkedList<E> {
-	//头结点,头结点一般记录的是第一个结点的 Node，且只在第一次时，会被赋值
+	//首结点,首结点一般记录的是第一个结点的 Node，且只在第一次时，会被赋值
 	private Node<E> first;	
 	//尾结点，用于记录当前的newNode，但是在下一次调用时，last就成为了 当时newNode.prev 了
 	private Node<E> last;	
